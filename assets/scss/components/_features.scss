@@ -1,0 +1,45 @@
+.features {
+  width: 100%;
+  height: 940px;
+  @include center();
+
+  &-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &-title {
+    font-family: $second-family;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: $black-color;
+    cursor: pointer;
+    @include trn();
+    margin-bottom: 72px;
+  }
+
+  &-cards {
+    width: 100%;
+    height: 250px;
+    @include flex(center, space-between);
+  }
+
+  &-card {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &_image {
+      width: 100px;
+      height: 100px;
+      @include center();
+    }
+  }
+}

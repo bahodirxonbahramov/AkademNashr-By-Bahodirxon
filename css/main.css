@@ -11,6 +11,9 @@ body,
 .wrapper {
   width: 100%;
   height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 button {
@@ -207,4 +210,51 @@ li {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.features {
+  width: 100%;
+  height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.features-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 72px;
+}
+.features-cards {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features-card {
+  width: 340px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.features-card_image {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
