@@ -102,6 +102,12 @@ li {
 .header-logo_name span {
   color: #ff7500;
 }
+.header-logo:hover {
+  opacity: 0.8;
+}
+.header-logo:active {
+  opacity: 0.6;
+}
 .header-links {
   width: 425px;
   height: 15px;
@@ -122,6 +128,9 @@ li {
 .header-link:hover {
   color: #ff7500;
 }
+.header-link:active {
+  opacity: 0.6;
+}
 .header-register {
   border-radius: 4px;
   padding: 12px 24px;
@@ -133,6 +142,12 @@ li {
   color: #fff;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+}
+.header-register:hover {
+  opacity: 0.8;
+}
+.header-register:active {
+  opacity: 0.6;
 }
 
 .hero {

@@ -40,6 +40,14 @@
         color: $main-color;
       }
     }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 
   &-links {
@@ -62,6 +70,10 @@
     &:hover {
       color: $main-color;
     }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 
   &-register {
@@ -75,5 +87,13 @@
     color: $white-color;
     cursor: pointer;
     @include trn();
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 }
