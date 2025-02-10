@@ -1,0 +1,20 @@
+.discount {
+  width: 100%;
+  height: 510px;
+  @include center();
+
+  &-row {
+    width: 100%;
+    height: 100%;
+    @include flex(center, space-between);
+  }
+
+  &-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+}

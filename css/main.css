@@ -278,4 +278,26 @@ li {
   line-height: 150%;
   letter-spacing: 0.03em;
   color: #000;
+}
+
+.discount {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discount-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discount-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }/*# sourceMappingURL=main.css.map */
