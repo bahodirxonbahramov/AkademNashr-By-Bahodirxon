@@ -14,6 +14,7 @@ body,
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  scroll-behavior: smooth;
 }
 
 button {
@@ -250,11 +251,31 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  cursor: pointer;
 }
 .features-card_image {
   width: 100px;
   height: 100px;
+  border-radius: 100%;
+  background-color: rgba(255, 117, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.features-card_name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin: 32px 0 12px 0;
+}
+.features-card_descript {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
