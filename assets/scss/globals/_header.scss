@@ -74,6 +74,11 @@
     &:active {
       opacity: 0.6;
     }
+
+    &.active {
+      padding-bottom: 4px;
+      border-bottom: 3px solid $main-color;
+    }
   }
 
   &-register {
