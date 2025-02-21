@@ -1,13 +1,75 @@
 .footer {
   width: 100%;
   height: 510px;
+  background-color: $footer-color;
   @include center();
+  margin-top: 260px;
 
   &-row {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
-    
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 56px;
+  }
+
+  &-top {
+    width: 100%;
+    height: 60px;
+    @include flex(center, space-between);
+  }
+
+  &-socials {
+    width: 105px;
+    height: 25px;
+    @include flex(center, center);
+    column-gap: 16px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      fill: $hero-color;
+    }
+  }
+
+  hr {
+    width: 100%;
+    height: 3px;
+    background: rgba(37, 36, 32, 0.5);
+    margin-top: 40px;
+  }
+
+  &-bottom {
+    width: 100%;
+    height: 230px;
+    @include flex(center, space-between);
+    margin-top: 64px;
+  }
+
+  &-links {
+    width: 225px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 16px;
+  }
+
+  &-link {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 16px;
+    color: $hero-color;
+    @include trn();
+
+    &:hover {
+      color: $main-color;
+    }
+
+    &:active {
+      opacity: 60%;
+    }
   }
 }
